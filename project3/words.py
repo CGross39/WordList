@@ -5,11 +5,17 @@ def num_letters(num_rows, num_columns):
 assert num_letters(3,4)==10
 print("checking assertations.")
 
-assert num_letters (4,5)==14
+assert num_letters (13,4)==30
 print("checking assertations")
 
-assert num_letters (3,10)== 22
+assert num_letters (4,4)== 12
 print("checking assertations")
+
+assert num_letters (6,4)==16
+print("checking assertations")
+
+assert num_letters (6,7)==22
+print ("checking assertations")
 
 import numpy as np
 data = np.loadtxt("loop4.csv", delimiter=",", dtype=str, encoding='utf8')
@@ -23,6 +29,3 @@ print(columns)
 
 
 
-##
-##print(words)
-##assert len(words)==num_letters(rows, columns)
